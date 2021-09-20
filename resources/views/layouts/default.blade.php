@@ -10,7 +10,7 @@
 @include('includes.navbar')
 
 <div class="container">
-    <div class="row">
+    <div class="row content">
 
         <div class="col-md-8">
             @include('includes.header')
@@ -36,10 +36,10 @@
 
         </div>
 
-        <div class="row">
-            @include('includes.footer')
-        </div>
+    </div>
 
+    <div class="row footer-div">
+        @include('includes.footer')
     </div>
 
 
