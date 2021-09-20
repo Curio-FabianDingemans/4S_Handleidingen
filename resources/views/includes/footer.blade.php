@@ -1,10 +1,29 @@
 
 <footer>
-	© {{ __('misc.copyright') }}
+    <div class="items">
+        <div class="item">
+            <h1>Over ons</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat hic illum nam perferendis praesentium quos repellendus soluta temporibus veniam vero? Eius eligendi eos illum itaque magni mollitia non omnis tempore.</p>
+        </div>
+        <div class="item">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat hic illum nam perferendis praesentium quos repellendus soluta temporibus veniam vero? Eius eligendi eos illum itaque magni mollitia non omnis tempore.</p>
+        </div>
+        <div class="item">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat hic illum nam perferendis praesentium quos repellendus soluta temporibus veniam vero? Eius eligendi eos illum itaque magni mollitia non omnis tempore.</p>
+        </div>
+    </div>
+    <div class="social-icons">
+        <div class="social-icon">
+
+        </div>
+    </div>
+    <div class="copyrights"><span>© {{ __('misc.copyright') }}</span></div>
 </footer>
 
 
-<!-- analytics code -->              
+<!-- analytics code -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -19,10 +38,10 @@
 </script>
 <!-- Einde analytics code -->
 
-<script language="Javascript" type="text/javascript"> 
- <!-- 
- if (top.location!= self.location) { 
+<script language="Javascript" type="text/javascript">
+ <!--
+ if (top.location!= self.location) {
   top.location = self.location.href
- } 
-//--> 
+ }
+//-->
 </script>

@@ -38,11 +38,10 @@
 
     </div>
 
-    <div class="row footer-div">
-        @include('includes.footer')
-    </div>
+</div>
 
-
+<div class="row footer-div">
+    @include('includes.footer')
 </div>
 
 <!-- Bootstrap core JavaScript
