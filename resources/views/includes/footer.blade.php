@@ -7,17 +7,17 @@
         </div>
         <div class="item">
             <h1>Contact</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat hic illum nam perferendis praesentium quos repellendus soluta temporibus veniam vero? Eius eligendi eos illum itaque magni mollitia non omnis tempore.</p>
-        </div>
-        <div class="item">
-            <h1>Contact</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat hic illum nam perferendis praesentium quos repellendus soluta temporibus veniam vero? Eius eligendi eos illum itaque magni mollitia non omnis tempore.</p>
+            <span>Email: <a href="mailto:example@example.com">example@example.com</a></span><br>
+            <span>Tel: <a href="tel:+31645686178">+31645686178</a></span><br><br>
+            <span>Address: </span><br>
+            <span>Palestrinastraat 88</span><br>
+            <span>1071 LE Amsterdam</span>
         </div>
     </div>
     <div class="social-icons">
-        <div class="social-icon">
-
-        </div>
+        <a href="link1" target="_blank"><div class="icon"><i class="fab fa-facebook-f"></i></div></a>
+        <a href="link2" target="_blank"><div class="icon"><i class="fab fa-linkedin-in"></i></div></a>
+        <a href="link3" target="_blank"><div class="icon"><i class="fab fa-instagram"></i></div></a>
     </div>
     <div class="copyrights"><span>© {{ __('misc.copyright') }}</span></div>
 </footer>
